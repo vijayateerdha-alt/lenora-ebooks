@@ -1,0 +1,6 @@
+{
+  "name": "BookVerse",
+  "description": "A premium digital reading and audiobook platform featuring curated public-domain ebooks and audiobooks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

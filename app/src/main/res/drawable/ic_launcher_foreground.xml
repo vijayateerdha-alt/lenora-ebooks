@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Headphones Arc (Audiobook element) -->
+    <path
+        android:pathData="M38,44 C38,34 44,28 54,28 C64,28 70,34 70,44"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="28"
+                android:endX="70"
+                android:endY="44"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D4AF37" />
+                <item android:offset="0.5" android:color="#F7E7CE" />
+                <item android:offset="1.0" android:color="#D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Headphone ear cups -->
+    <path
+        android:pathData="M35,42 L39,42 A2,2 0 0,1 41,44 L41,50 A2,2 0 0,1 39,52 L35,52 A2,2 0 0,1 33,50 L33,44 A2,2 0 0,1 35,42 Z"
+        android:fillColor="#D4AF37" />
+    <path
+        android:pathData="M69,42 L73,42 A2,2 0 0,1 75,44 L75,50 A2,2 0 0,1 73,52 L69,52 A2,2 0 0,1 67,50 L67,44 A2,2 0 0,1 69,42 Z"
+        android:fillColor="#D4AF37" />
+
+    <!-- Open Book Pages (Left and Right) -->
+    <!-- Left Page -->
+    <path
+        android:pathData="M52,50 C44,48 34,51 28,54 L28,74 C34,71 44,68 52,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="50"
+                android:endX="52"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F3E5AB" />
+                <item android:offset="1.0" android:color="#D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Right Page -->
+    <path
+        android:pathData="M56,50 C64,48 74,51 80,54 L80,74 C74,71 64,68 56,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="56"
+                android:startY="50"
+                android:endX="80"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E5C07B" />
+                <item android:offset="1.0" android:color="#C59B27" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Book Spine / Center Crest -->
+    <path
+        android:pathData="M52,50 L56,50 L56,76 L54,78 L52,76 Z"
+        android:fillColor="#FFF8E7" />
+        
+    <!-- Book ribbon bookmark -->
+    <path
+        android:pathData="M53,70 L55,70 L55,83 L54,81 L53,83 Z"
+        android:fillColor="#E5A93B" />
+</vector>
